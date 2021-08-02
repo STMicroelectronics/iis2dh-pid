@@ -38,7 +38,7 @@ This directory contains the IIS2DH component drivers.
 
 ### First release
 
-- First official release
+- First official release [ref. DS v2.0]
 
 ##
 
