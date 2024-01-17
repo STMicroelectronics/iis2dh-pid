@@ -1010,16 +1010,6 @@ int32_t iis2dh_act_timeout_get(const stmdev_ctx_t *ctx, uint8_t *val);
 
 typedef enum
 {
-  IIS2DH_PULL_UP_DISCONNECT  = 0,
-  IIS2DH_PULL_UP_CONNECT     = 1,
-} iis2dh_sdo_pu_disc_t;
-int32_t iis2dh_pin_sdo_sa0_mode_set(const stmdev_ctx_t *ctx,
-                                    iis2dh_sdo_pu_disc_t val);
-int32_t iis2dh_pin_sdo_sa0_mode_get(const stmdev_ctx_t *ctx,
-                                    iis2dh_sdo_pu_disc_t *val);
-
-typedef enum
-{
   IIS2DH_SPI_4_WIRE = 0,
   IIS2DH_SPI_3_WIRE = 1,
 } iis2dh_sim_t;
