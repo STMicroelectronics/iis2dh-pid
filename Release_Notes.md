@@ -44,7 +44,7 @@ This directory contains the IIS2DH component drivers.
 
 </div>
 
-<input type="checkbox" id="collapse-section2" checked aria-hidden="true">
+<input type="checkbox" id="collapse-section2" aria-hidden="true">
 <label for="collapse-section2" aria-hidden="true">V1.0.0 / 01-June-2023</label>
 <div>
 
@@ -56,7 +56,21 @@ This directory contains the IIS2DH component drivers.
 ##
 
 </div>
+
+<input type="checkbox" id="collapse-section3" checked aria-hidden="true">
+<label for="collapse-section3" aria-hidden="true">V2.0.0 / 19-Mar-2024</label>
+<div>
+
+## Main changes
+
+- Remove unused pin_sdo_sa0_mode get/set APIs
+- Add "const" to ctx arg for all APIs
+
+##
+
+</div>
 :::
+
 
 :::
 :::
